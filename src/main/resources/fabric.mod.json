@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "drgreenus-anchor-optimizer",
+	"version": "${version}",
+	"name": "DrGreenus Anchor Optimizer",
+	"description": "Instantly removes Respawn Anchors after explosion for better PvP performance.",
+	"authors": [
+		"DrGreenus"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/drgreenus-anchor-optimizer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.drgreenus.DrGreenusAnchorOptimizer"
+		]
+	},
+	"mixins": [
+		"drgreenus-anchor-optimizer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.drgreenus.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"AnchorMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
